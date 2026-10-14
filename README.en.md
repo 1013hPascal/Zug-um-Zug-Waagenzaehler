@@ -1,6 +1,7 @@
 # Zug um Zug Scale Counter
 
 [Deutsch](README.md) | English
+
 The program counts the number of scales per player in the board game Zug um Zug and provides information about the progress of the game.
 
 ## Download

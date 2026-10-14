@@ -1,10 +1,12 @@
 # Zug um Zug-Waagenzähler
 
 Deutsch | [English](README.en.md)
+
 Das Programm zählt die Anzahl der Waagen pro Spieler beim Gesellschaftsspiel Zug um Zug und liefert Informationen über den Spielverlauf.
 
 ## Download
 Es gibt eine Exe für Windows.
+Download: [Releases](https://github.com/1013hPascal/Zug-um-Zug-Waagenzaehler/releases)
 
 ## Funktionen
 - Zählt die Anzahl der Waagen pro Spieler.
@@ -22,8 +24,15 @@ Alle Tasten können mit der Leertaste bestätigt werden. Meistens funktioniert a
 ## Systemanforderungen
 Es gibt eine Exe für Windows.
 
-## Werkzeuge und Bibliotheken
-PySide6, dataclasses, pygame, win32com.
+## Installation aus dem Quellcode
+Sie brauchen Python 3.11 oder neuer und Git.
+
+```
+git clone https://github.com/1013hPascal/Zug-um-Zug-Waagenzaehler.git
+cd Zug-um-Zug-Waagenzaehler
+python -m zurevenv .venv
+.venv\Scripts\activate
+```
 
 ## Windows-Warnungen
 Windows warnt vielleicht mit „Der Computer wurde durch Windows geschützt“, weil die Exe nicht signiert ist. Wählen Sie „Weitere Informationen“ und dann „Trotzdem ausführen“.
