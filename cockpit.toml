@@ -1,0 +1,15 @@
+[readme]
+requirements = "Es gibt eine Exe für Windows."
+
+[features]
+enabled = [
+    "ai_assistant",
+    "ai_help",
+    "branches_prs",
+    "dictation",
+    "exe_build",
+    "readme",
+    "releases",
+    "terminal_explain",
+    "versions",
+]
